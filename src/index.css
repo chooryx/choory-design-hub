@@ -57,6 +57,19 @@
   .choory-nav-item {
     @apply font-medium hover:underline underline-offset-4 transition-all duration-200;
   }
+  
+  /* New styles for the modern black and white design */
+  .modern-card {
+    @apply rounded-3xl border-2 border-black overflow-hidden transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .circle-image {
+    @apply rounded-full border-2 border-black overflow-hidden;
+  }
+  
+  .floating-tag {
+    @apply bg-white px-4 py-2 rounded-full border border-black inline-block shadow-md;
+  }
 }
 
 @layer components {

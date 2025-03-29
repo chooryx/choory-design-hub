@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <div className="aspect-square bg-gray-100 rounded-none overflow-hidden">
+            <div className="aspect-square bg-gray-100 rounded-full overflow-hidden border-2 border-black">
               <img 
                 src="/lovable-uploads/8950fd56-7a36-4de8-a4e8-1eaf8364a769.png" 
                 alt="Design Inspiration" 
